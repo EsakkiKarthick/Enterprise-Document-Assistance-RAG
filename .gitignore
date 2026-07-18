@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files (Python internal clutter)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Crucial: prevents uploading thousands of library files)
+venv/
+.venv/
+env/
+ENV/
+
+# Sensitive Information & Credentials (NEVER upload these!)
+.env
+*.env
+secret_key.txt
+credentials.json
+
+# Large Data & Vector Databases (RAG specific)
+data/
+chroma_db/
+faiss_index/
+*.db
+*.sqlite
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
